@@ -1,0 +1,39 @@
+body{
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+
+.paragraph{
+  font-family: arial;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: blue;
+  margin-bottom: 100px
+
+}
+.logo-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 150px;
+}
+
+.nav{
+  display: flex;
+  flex: 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img{
+  width: 40px;
+  
+}
