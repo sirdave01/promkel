@@ -6,9 +6,12 @@ body{
   background-color: pink;
 }
 
-.paragraph{
+p{
   font-family: arial;
   font-style: italic;
+  
+}
+.paragraph{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -34,6 +37,7 @@ body{
   grid-template-columns:  2fr 2fr 2fr ;
   column-gap: 30px;
   row-gap: 30px;
+  margin-bottom: 100px;
 }
 
 .nav img{
@@ -47,5 +51,26 @@ body{
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+.par{
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-top: 250px;
+}
+
+.links{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+.socials{
+  display: flex;
+}
+
+.socials img{
+  width: 50px;
+  padding-left: 40px;
 
 }
