@@ -57,6 +57,15 @@ p{
   font-size: 15px;
   margin-bottom: 30px;
   margin-top: 250px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.plea{
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
 }
 
 .links{
@@ -67,6 +76,7 @@ p{
 
 .socials{
   display: flex;
+  justify-content: flex-end;
 }
 
 .socials img{
