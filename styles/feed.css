@@ -1,0 +1,27 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  border-style: solid;
+  border: 0;
+  border-radius: 8px;
+}
+
+.imge{
+  width: 100px;
+}
+
+.search {
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.search::placeholder{
+  font-family: arial;
+  font-size: 20px;
+  padding-left: 20px;
+  background-color: none;
+  border: none;
+}
