@@ -30,6 +30,8 @@
   display: flex;
   flex: 1fr;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .im {
@@ -53,7 +55,7 @@
   display: grid;
   grid-template-columns: 100px 100px 100px;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 30px;
 }
 
@@ -62,5 +64,5 @@
 }
 
 .ij, .kl {
-  margin-right: 5px;
+  margin-right: 10px;
 }
