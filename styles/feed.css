@@ -25,3 +25,35 @@
   background-color: none;
   border: none;
 }
+
+.sh{
+  display: flex;
+  flex: 1fr;
+  align-items: center;
+}
+
+.im {
+  width: 30px;
+}
+
+.se{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-style: solid;
+  border-radius: 15px;
+  background-color: rgb(241, 240, 240);
+}
+
+.fff {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.fff img{
+  width: 20px;
+}
