@@ -32,6 +32,32 @@ p{
   border-radius: 100px;
 }
 
+.login p{
+  margin-bottom: 0;
+}
+
+.e{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.email{
+  padding-left: 5px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.pw{
+  margin-bottom: 30px;
+}
+.password{
+  padding-left: 5px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
 .nav{
   display: grid;
   grid-template-columns:  2fr 2fr 2fr ;
